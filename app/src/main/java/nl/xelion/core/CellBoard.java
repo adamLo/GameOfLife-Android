@@ -1,15 +1,10 @@
 package nl.xelion.core;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 
 public class CellBoard {
 
     private boolean[][] cells;
-
-    public boolean[][] getCells() {
-        return cells;
-    }
 
     private int numberOfColumns;
     public int getNumberOfColumns() {
